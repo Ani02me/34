@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Box</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: lightgray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border: 2px solid black;
+            margin-bottom: 20px;
+        }
+        .buttons {
+            display: flex;
+            gap: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box">Өзгеріс көру үшін мышкаңызды қорапқа алып келіңіз</div>
+    <div class="buttons">
+        <button id="greenButton">Жасыл</button>
+        <button id="widenButton">Ұзарту</button>
+        <button id="heightenButton">Биіктігін ұзарту</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
